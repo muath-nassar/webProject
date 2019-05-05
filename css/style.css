@@ -1,0 +1,183 @@
+.col-12{
+
+    padding-right: 0;
+    padding-left: 0;
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+nav{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+nav li{
+    padding-right: 5% !important;
+    font-size: 1.5em ;
+}
+.slider img{
+    z-index: 1;
+
+}
+
+#opacity{
+    position: absolute;
+
+    height: 100%;
+
+    z-index: 2;
+    background-color: rgba(0,123,0255,0.41);
+}
+
+/*
+Arrow
+ */
+
+.arrows {
+    width: 48px;
+    height: 48px;
+    border-color: #ffffff;
+    color: #0f6674;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    z-index: 500;
+}
+.arrows:hover{
+    color: #ffe8a1;
+    width: 55px;
+    height: 55px;
+}
+
+.prev {
+    border-bottom: 6px solid;
+    border-left: 6px solid;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.next {
+    border-bottom: 6px solid;
+    border-left: 6px solid;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*
+Arrow
+ */
+#insideDiv{
+    position: absolute;
+    right: 30%;
+    top: 40%;
+    z-index: 100000;
+    color: white;
+    width: 40%;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    margin-left: 3%;
+    padding: 1%;
+
+}
+.white{
+    border: 1px solid #0f6674;
+    background-color: white;
+
+
+}
+.white h3{
+    color: #0f6674;;
+
+}
+.white p{
+    color: #6c757d;
+
+}
+/*--------------------------------------*/
+.colored{
+    border: 1px solid #0f6674;
+    background-color: #0f6674;
+
+
+}
+.colored h3{
+    color: #ffffff;;
+
+}
+.colored p{
+    color: #ffffff;
+
+}
+#second{
+    background-color: #ebebeb;
+    padding: 2%;
+}
+#second p{
+    display: block;
+}
+#second h1{
+    text-align: center;
+
+}
+#second center{
+
+    padding-bottom: 20px;
+
+}
+#buttons button{
+    margin-top: 0.5%;
+}
+#meeting{
+    padding: 3%;
+}
+#profiles{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+#profiles img{
+    position: absolute;
+
+    border-radius: 100%;
+    display: block;
+   right: 31%;
+    width: 75px;
+    height: 75px;
+    top: -15% !important;
+    z-index: 5;
+}
+#profiles .col-2{
+    display: inline-block;
+}
+.logo{
+
+
+   float: right;
+}
+.card-footer{
+    text-align: center;
+    background-color: #0f6674;
+    color: white;
+    height: 130px;
+
+    font-size: 1em;
+
+}
+.card-footer .copyright{
+    float: right;
+    position: relative;
+    top: 50px;
+    padding-right: 100px;
+    font-size: 1.5em;
+
+
+}
